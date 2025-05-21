@@ -1,0 +1,33 @@
+Package: sopravvivenza
+Title: Reconstruct Individual Patient Data from Digitized Kaplan-Meier Curves
+Version: 0.1.0
+Authors@R: 
+    person("Giandomenico", "Bisaccia", , "giandomenico.bisaccia@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: A comprehensive toolkit for reconstructing individual patient data (IPD) 
+    from digitized Kaplan-Meier survival curves using the method described by Guyot et al. 
+    This package provides functions for reading digitized curve data, reconstructing IPD, 
+    calculating hazard ratios, performing meta-analysis, and creating visualization plots.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    survival,
+    survminer,
+    dplyr,
+    ggplot2,
+    readr,
+    writexl,
+    splines,
+    stats,
+    utils,
+    graphics
+Suggests:
+    meta,
+    metafor,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
