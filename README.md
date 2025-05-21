@@ -1,5 +1,7 @@
 # sopravvivenza: Reconstruct Individual Patient Data from Digitized Kaplan-Meier Curves
 
+Please note this is under construction.
+
 # Overview
 
 The `sopravvivenza` package provides a comprehensive toolkit for reconstructing individual patient data (IPD) from digitized Kaplan-Meier survival curves using the method described by Guyot et al. This approach is particularly valuable for meta-analyses where only published survival curves are available rather than the original IPD.
